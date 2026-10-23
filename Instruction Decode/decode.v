@@ -33,13 +33,13 @@ module decode(
     regfile rf0(
         .clk(clk),
         .rst(rst),
-        .regwrite(wb_reg_write),
-        .rs(if_id_instr[25:21]),
-        .rt(if_id_instr[20:16]),
-        .rd(wb_write_reg_location),
-        .writedata(mem_wb_write_data),
-        .A_readdat1(readdat1_internal),
-        .B_readdat2(readdat2_internal)
+        .regWrite(wb_reg_write),
+        .readReg1(if_id_instr[25:21]),
+        .readReg2(if_id_instr[20:16]),
+        .writeReg(wb_write_reg_location),
+        .writeData(mem_wb_write_data),
+        .readData1(readdat1_internal),
+        .readData2(readdat2_internal)
         );    
     
     control c0(
