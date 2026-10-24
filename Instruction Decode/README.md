@@ -63,7 +63,7 @@ Verification covers:
 The control Testbench source is available [*here*](https://github.com/MatthewOkuma/ECE4300_Decode_Assignment/blob/main/Instruction%20Decode/control_tb.v).
 
 
-![regfile Waveform](https://github.com/BlackFlameFlame/ECE4300-Coding-Assignment/blob/main/Instruction%20Fetch/images/Screenshot%202026-10-14%20104036.png)
+![regfile Waveform](https://github.com/MatthewOkuma/ECE4300_Decode_Assignment/blob/main/Instruction%20Decode/images/Screenshot_regfile_tb.png)
 
 The regfile Testbench source is available [*here*](https://github.com/MatthewOkuma/ECE4300_Decode_Assignment/blob/main/Instruction%20Decode/regfile_tb.v).
 
