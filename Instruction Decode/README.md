@@ -29,6 +29,9 @@ Limitations:
 | REQ-04 | The ID/EX Latch shall store control signals, data values, and instruction fields on the rising edge of the clock | ID/EX Latch testbench and waveform |
 | REQ-05 | The complete ID stage shall connect all modules and correctly decode instructions into downstream control pipelines | Decode top-level testbench and waveform |
 
+## Architecture
+Timing or Behavioral Summary
+![Timing Summary](https://github.com/MatthewOkuma/ECE4300_Decode_Assignment/blob/96230f0bd0d06c4e5fa84cdc4780157344458e65/Instruction%20Decode/images/Decode%20Timing%20Diagram.png)
 
 ## Implementation
 ### Source Code
